@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "test1Induu.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 15,
+          "column": 53
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -24,12 +24,8 @@
         },
         "triggers": [
           {
-            "resourceName": "s3btbucketimages",
-            "config": {
-              "type": "s3:ObjectCreated:Copy",
-              "keyPrefix": "",
-              "keySuffix": ""
-            }
+            "resourceName": "apigusEast1sachithraAPInametestany",
+            "config": {}
           }
         ],
         "testCases": {
@@ -318,6 +314,38 @@
             ]
           }
         }
+      },
+      "apigusEast1sachithraAPInametestany": {
+        "name": "apigusEast1sachithraAPInametestany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/test/indusns": "iep52p",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/test",
+          "resourceName": "test",
+          "resourceId": "9vz3u0",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test13",
+          "mode": 1
+        }
       }
     },
     "customTemplate": {
@@ -355,7 +383,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1587545877498
+    "lastSave": 1587546237600
   },
   "VCS_STATE": {
     "provider": "GitHub",
